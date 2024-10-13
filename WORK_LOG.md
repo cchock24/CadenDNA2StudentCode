@@ -1,9 +1,12 @@
 Name: YOUR NAME HERE
 
-| Date    |  Time  |                                     Update |
-|:--------|:------:|-------------------------------------------:|
-| April 5 | 9-10pm | I tried to write abstract, efficient code. |
-|         |        |                                            |
+| Date   |    Time    |                                                                                                                                                                                                                                                                               Update |
+|:-------|:----------:|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| Oct 9  | 9:30-10:00 |                                                                                                                                      I Looked through the Java String methods to see if any would help. I also tried using contains which works, but can probably be more efficient. |
+| Oct 10 | 2:20-3:00  | Mr. Blick decided to mean and make test largest take longer :/. I tried using replace all and relieved that it actually makes it take longer. RN i'm currently working on making an indexOf method that instead of checking between strings its checking between ints using hashing. |
+| Oct 13 | 1:25-1:45  |                                            I'm trying to use hashCode and then comparing them to make the code more efficient, but for some reason their not matching up which is weird. UPDATE: got it to work with hashcode, but its so slow it took 3 sec to run Chromosone 22... |
+| Oct 13 | 1:45-2:00  |                               I realized why it has such a long runTime its because hashCode itself has a long runtime because how it works is it interates through the string and multiplies each value by a number, so it takes just as long if not more time than indexOf to run. |
+| Oct 13 | 2:00-2:45  |                                                                                           I'm trying to think of how to make my hashing algorithm more efficient, but I don't really know... I'm gonna start trying to see if I can make the other parts of the code more efficient. |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
