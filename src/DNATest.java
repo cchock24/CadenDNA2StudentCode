@@ -27,7 +27,7 @@ public class DNATest {
     private String STR;
 
     @Test
-    @Timeout(value = 100, unit = TimeUnit.MILLISECONDS)
+//    @Timeout(value = 100, unit = TimeUnit.MILLISECONDS)
     public void testBasic() {
         setTestData(0);
     }

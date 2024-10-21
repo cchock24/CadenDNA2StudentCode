@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d822f69-9e3c-4e2b-8ee1-11779bb646bd" name="Changes" comment="">
+    <list default="true" id="6d822f69-9e3c-4e2b-8ee1-11779bb646bd" name="Changes" comment=":/">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WORK_LOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/WORK_LOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DNA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DNA.java" afterDir="false" />
@@ -46,7 +46,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.DNATest.executor": "Run",
-    "JUnit.DNATest.testBasic.executor": "Run",
+    "JUnit.DNATest.testBasic.executor": "Debug",
     "JUnit.DNATest.testChromosome22.executor": "Debug",
     "JUnit.DNATest.testLargest.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -57,7 +57,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.DNATest.testLargest">
+  <component name="RunManager" selected="JUnit.DNATest.testBasic">
     <configuration name="DNATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DNA 2.0 Student Code" />
       <option name="PACKAGE_NAME" value="" />
@@ -99,9 +99,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DNATest.testBasic" />
         <item itemvalue="JUnit.DNATest.testLargest" />
         <item itemvalue="JUnit.DNATest.testChromosome22" />
-        <item itemvalue="JUnit.DNATest.testBasic" />
         <item itemvalue="JUnit.DNATest" />
       </list>
     </recent_temporary>
@@ -115,10 +115,21 @@
       <option name="presentableId" value="Default" />
       <updated>1722368227958</updated>
     </task>
+    <task id="LOCAL-00001" summary=":/">
+      <option name="closed" value="true" />
+      <created>1728856354341</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728856354341</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value=":/" />
+    <option name="LAST_COMMIT_MESSAGE" value=":/" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -129,20 +140,10 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <condition expression="c.equals(&quot;AGAT&quot;)" language="JAVA" />
           <url>file://$PROJECT_DIR$/src/DNA.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <condition expression="z.equals(&quot;AGAT&quot;)" language="JAVA" />
-          <url>file://$PROJECT_DIR$/src/DNA.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DNA.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="8" />
+          <line>48</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
