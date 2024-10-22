@@ -11,9 +11,9 @@
 
 public class DNA {
 
-    final static int p = 2147483647;
+    final static long p = 67280421310721L;
     final static int radix = 256;
-    static long power;
+    static long power = 1;
     static int length;
     /**
      * TODO: Complete this function, STRCount(), to return longest consecutive run of STR in sequence.
@@ -25,7 +25,7 @@ public class DNA {
     public static int method(String sequence, String STR){
         String check = STR;
         length = STR.length();
-//        power = (long) Math.pow(radix, length-1);
+        power = 1;
         for(int i = 0; i < length-1; i++){
             power = (power * radix) % p;
         }
@@ -33,6 +33,11 @@ public class DNA {
         int count = 0;
         while(place >= 0){
             check += STR;
+            length += STR.length();
+            power = 1;
+            for(int i = 0; i < length-1; i++){
+                power = (power * radix) % p;
+            }
             count++;
             sequence = sequence.substring(place);
             place = index(sequence,check);
@@ -41,24 +46,23 @@ public class DNA {
     }
 
     public static int index(String sequence, String STR){
-        long x = hash(STR);
-        String z = sequence.substring(0, length);
-        long y = hash(z);
+        long x = hash(STR, 0, length);
+        long y = hash(sequence, 0, length);
         for(int i = 0; i < sequence.length()-length; i++){
-            String c = sequence.substring(i,length+i);
             if(x == y){
                 return i;
             }
             y = shiftHash(y, sequence.charAt(i), sequence.charAt(i+length));
+
         }
         return -1;
     }
 
     //Make Initial Hash for first set letters
-   public static long hash(String s){
+   public static long hash(String sequence, int start, int end){
         long hash = 0;
-        for(int i = 0; i < s.length(); i++){
-            hash = (radix * hash + s.charAt(i)) % p;
+        for(int i = 0; i < (end - start); i++){
+            hash = (radix * hash + sequence.charAt(i+start)) % p;
         }
         return hash;
    }

@@ -9,7 +9,7 @@ Name: YOUR NAME HERE
 | Oct 13 |  2:00-2:45  |                                                                                           I'm trying to think of how to make my hashing algorithm more efficient, but I don't really know... I'm gonna start trying to see if I can make the other parts of the code more efficient. |
 | Oct 17 | 10:00-10:40 |                                                                                                                                                                                                                              Tried adding a Hash function don't know if it works yet |
 | Oct 21 |  2:00-3:00  |                                                                                                                                                        Finished the code; however, its currently not working I think the problem is with the hashing function I will check it later. |
-|        |             |                                                                                                                                                                                                                                                                                      |
+| Oct 22 |  3:20-4:30  |                                                                                                 Finally fixed a bug invovling my power being wrong due to it being a static method and not resessting. I'm now having an error where its returning to many times that I need to fix. |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
