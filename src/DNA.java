@@ -11,6 +11,10 @@
 
 public class DNA {
 
+    //p = mod
+    //radix = radix
+    //power = radix place of the first char in string
+    //length = length of STR
     final static long p = 999999000001L;
     final static int radix = 256;
     static long power = 1;
