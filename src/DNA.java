@@ -11,7 +11,7 @@
 
 public class DNA {
 
-    final static long p = 67280421310721L;
+    final static long p = 999999000001L;
     final static int radix = 256;
     static long power = 1;
     static int length;
