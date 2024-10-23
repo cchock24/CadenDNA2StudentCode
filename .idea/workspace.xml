@@ -45,9 +45,10 @@
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.DNATest.executor": "Run",
     "JUnit.DNATest.testBasic.executor": "Run",
-    "JUnit.DNATest.testChromosome22.executor": "Debug",
+    "JUnit.DNATest.testChromosome22.executor": "Run",
+    "JUnit.DNATest.testEvenMore.executor": "Run",
     "JUnit.DNATest.testLargest.executor": "Run",
-    "JUnit.DNATest.testMore.executor": "Debug",
+    "JUnit.DNATest.testMore.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -56,16 +57,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.DNATest">
-    <configuration name="DNATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DNA 2.0 Student Code" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DNATest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.DNATest.testChromosome22">
     <configuration name="DNATest.testBasic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DNA 2.0 Student Code" />
       <option name="PACKAGE_NAME" value="" />
@@ -81,6 +73,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DNATest" />
       <option name="METHOD_NAME" value="testChromosome22" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DNATest.testEvenMore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DNA 2.0 Student Code" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DNATest" />
+      <option name="METHOD_NAME" value="testEvenMore" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DNATest" />
+        <item itemvalue="JUnit.DNATest.testChromosome22" />
+        <item itemvalue="JUnit.DNATest.testLargest" />
+        <item itemvalue="JUnit.DNATest.testEvenMore" />
         <item itemvalue="JUnit.DNATest.testMore" />
         <item itemvalue="JUnit.DNATest.testBasic" />
-        <item itemvalue="JUnit.DNATest.testLargest" />
-        <item itemvalue="JUnit.DNATest.testChromosome22" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729548007256</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=":/">
+      <option name="closed" value="true" />
+      <created>1729639657336</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729639657336</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -158,10 +168,9 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <condition expression="count == 43" language="JAVA" />
           <url>file://$PROJECT_DIR$/src/DNA.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="20" />
+          <line>49</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

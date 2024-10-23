@@ -26,10 +26,11 @@ public class DNA {
         String check = STR;
         length = STR.length();
         power = 1;
+        int start = 0;
         for(int i = 0; i < length-1; i++){
             power = (power * radix) % p;
         }
-        int place = index(sequence, check);
+        int place = index(sequence, check, start);
         int count = 0;
         while(place >= 0){
             check += STR;
@@ -39,21 +40,20 @@ public class DNA {
                 power = (power * radix) % p;
             }
             count++;
-            sequence = sequence.substring(place);
-            place = index(sequence,check);
+            start = place;
+            place = index(sequence,check, start);
         }
         return count;
     }
-
-    public static int index(String sequence, String STR){
+    //Basically IndexOf but better
+    public static int index(String sequence, String STR, int start){
         long x = hash(STR, 0, length);
-        long y = hash(sequence, 0, length);
-        for(int i = 0; i < sequence.length()-length; i++){
+        long y = hash(sequence, start, start+length);
+        for(int i = 0; i < sequence.length()-length-start; i++){
             if(x == y){
-                return i;
+                return start+i;
             }
-            y = shiftHash(y, sequence.charAt(i), sequence.charAt(i+length));
-
+            y = shiftHash(y, sequence.charAt(i+start), sequence.charAt(i+length+start));
         }
         return -1;
     }

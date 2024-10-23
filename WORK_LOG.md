@@ -10,6 +10,7 @@ Name: YOUR NAME HERE
 | Oct 17 | 10:00-10:40 |                                                                                                                                                                                                                              Tried adding a Hash function don't know if it works yet |
 | Oct 21 |  2:00-3:00  |                                                                                                                                                        Finished the code; however, its currently not working I think the problem is with the hashing function I will check it later. |
 | Oct 22 |  3:20-4:30  |                                                                                                 Finally fixed a bug invovling my power being wrong due to it being a static method and not resessting. I'm now having an error where its returning to many times that I need to fix. |
+| Oct 23 | 12:00-12:30 |                                                                                                                                                                                                             I worked on getting rid of all the substrings and using indexes instead. |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
